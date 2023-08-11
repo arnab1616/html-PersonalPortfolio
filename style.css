@@ -415,8 +415,9 @@ body{
     grid-template-columns: minmax(330px, 380px) minmax(330px, 380px);
     grid-template-rows: 70px 460px 460px 460px; 
   }
-  #middle-body-part .container .grid-box .bottom-cnt{
+  #middle-body-part .container .grid-box{
     overflow: auto;
+    height: auto;
   }
   #middle-body-part .container .grid-elm{
     grid-area: 1/1/2/2;
