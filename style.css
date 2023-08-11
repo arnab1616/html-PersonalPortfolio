@@ -313,7 +313,7 @@ body{
   #middle-body-part .container{
     display: grid;
     grid-template-columns: minmax(350px, 400px) minmax(350px, 400px);
-    grid-template-rows: 70px 480px 480px 480px; 
+/*     grid-template-rows: 70px 480px 480px 480px;  */
   }
   #middle-body-part .container .grid-elm{
     grid-area: 1/1/2/2;
@@ -415,7 +415,7 @@ body{
     display: grid;
     gap: 30px;
     grid-template-columns: minmax(330px, 380px) minmax(330px, 380px);
-    grid-template-rows: 70px 460px 460px 460px; 
+/*     grid-template-rows: 70px 460px 460px 460px;  */
   }
   #middle-body-part .container .grid-elm{
     grid-area: 1/1/2/2;
